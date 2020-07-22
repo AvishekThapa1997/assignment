@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">sign Up</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_password">Password</string>
+    <string name="enter_name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="images">Images</string>
+    <string name="view_images">View Images</string>
+    <string name="phone_number">Phone Number : </string>
+    <string name="contact_number">+91 9876543210</string>
+    <string name="gallary">Gallary</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="welcome">welcome</string>
+    <string name="logout">Logout</string>
+    <string name="id">ID :</string>
+    <string name="title">TITLE :</string>
+    <string name="organization_mail">organization@gmail.com</string>
+</resources>
