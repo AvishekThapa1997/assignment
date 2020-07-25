@@ -30,7 +30,6 @@ class SignInActivity : AppCompatActivity() {
             showProgress()
             obserValidationResponse()
             enableOrDisable(false)
-            Log.i("TAG", "onCreate: Sign In")
             email = user_email.text.toString()
             password = user_password.text.toString()
             utility.checkLoginCredentials(email,password)

@@ -18,7 +18,7 @@ import kotlinx.coroutines.launch
 import java.lang.Exception
 
 class UserViewModel(
-    private val mApplication: Application,
+    mApplication: Application,
     private val appRepository: AppRepository
 ) : AndroidViewModel(mApplication) {
     var signUpResponse: LiveData<String> = MutableLiveData()
@@ -51,7 +51,6 @@ class UserViewModel(
     fun signInUser(email: String?, password: String?) {
         viewModelScope.launch(Dispatchers.Default) {
             val resposne = appRepository.signInUser(email, password)
-            Log.i("TAG", "signInUser: ${resposne}")
             (user as MutableLiveData<User?>).postValue(resposne)
         }
     }

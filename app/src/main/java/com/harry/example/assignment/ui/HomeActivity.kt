@@ -74,7 +74,6 @@ class HomeActivity : AppCompatActivity() {
 
     private fun observeLogout() {
         utility.logoutResposne.observe(this, Observer {
-            Log.i("TAG", "observeLogout: ")
             if (it == USER_LOGOUT) {
                 val intent = Intent(applicationContext, MainActivity::class.java)
                 startActivity(intent)

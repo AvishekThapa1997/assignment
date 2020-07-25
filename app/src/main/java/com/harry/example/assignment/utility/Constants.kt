@@ -24,10 +24,12 @@ const val EMAIL_ALREADY_EXISTS = "The email address is already in use by another
 
 const val EMAIL = "email"
 
-const val PASSWORD ="password"
+const val PASSWORD = "password"
 
 const val SOMETHING_WENT_WRONG = "Something Went Wrong"
 
 const val USER_CREDENTIALS = "user_credentials"
 
 const val USER_LOGOUT = "User Logout"
+
+const val CHECK_YOUR_INTERNET_CONNECTION = "Check Your Internet Connection"

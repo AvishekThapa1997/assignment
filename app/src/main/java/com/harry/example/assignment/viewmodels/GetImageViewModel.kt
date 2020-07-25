@@ -12,7 +12,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 class GetImageViewModel(
-    private val myApplication: Application,
+    myApplication: Application,
     private val appRepository: AppRepository
 ) : AndroidViewModel(myApplication) {
     var apiResponses: LiveData<List<ApiResponse>?> = MutableLiveData()
